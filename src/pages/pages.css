@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    text-align: center;
+    background-color: red;
+    width: 100%;
+    height: 100%;
+}
+
+
+.navigation-bar {
+    position: fixed;
+    flex-direction: column;
+    background-color: #40c9a2ff;
+    width: 10%;
+    height: 100%;
+    padding: auto;
+    margin: auto;
+    z-index: 50;
+    
+}
+
+ul {
+    
+}
+
+li {
+    color: white;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+body {
+    background-color: #2f9c95ff;
+}
+
+a {
+    color: white;
+    display: block;
+}
+
+/*Home page css*/
+.welcome-body {
+    color: white;
+   
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* CSS HEX 
+--nyanza: #e5f9e0ff;
+--granny-smith-apple: #a3f7b5ff;
+--caribbean-green: #40c9a2ff;
+--viridian-green: #2f9c95ff;
+--rose-ebony: #664147ff;*/
+
+/* CSS HSL 
+--nyanza: hsla(108, 68%, 93%, 1);
+--granny-smith-apple: hsla(133, 84%, 80%, 1);
+--caribbean-green: hsla(163, 56%, 52%, 1);
+--viridian-green: hsla(176, 54%, 40%, 1);
+--rose-ebony: hsla(350, 22%, 33%, 1);*/
